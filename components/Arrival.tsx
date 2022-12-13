@@ -56,7 +56,7 @@ function Arrival(props: Props) {
         )}
         <div className="column">
           <h3>
-            {arrival.line} {arrival.lineName.toLowerCase()}
+            {arrival.line} {arrival.lineName.toLowerCase().split("-").join(" ")}
           </h3>
           <p className="label">{label ?? direction}</p>
         </div>

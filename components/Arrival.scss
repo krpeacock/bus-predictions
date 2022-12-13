@@ -64,13 +64,14 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      font-family: "Roboto Mono", "Courier New", Courier, monospace;
       font-size: 3.4rem;
       font-weight: 900;
       position: relative;
       span {
         position: relative;
         left: 1px;
-        top: 2px;
+        // top: 2px;
       }
     }
   }
